@@ -1,0 +1,24 @@
+body {background-color: #cccccc;}
+span {padding: 0px 4px 0px 4px;}
+.container {
+	margin: 0 auto; 
+	box-shadow: grey 0px 4px 20px 0px;
+	width: 400px; 
+	background-color: white;
+	padding: 10px;
+}
+#wordlist {
+	border: 1px solid gray; 
+	width: 398px; 
+	margin-bottom: 6px;
+	height: 120px;
+	overflow: hidden;
+	text-align: justify;
+}
+.loading {line-height: 120px; text-align: center !important;}
+input {width: 260px; text-align: center; margin: 0px 4px 0px 4px; outline:none}
+.current {background-color: #cccccc;}
+.current.typo {background-color: red;}
+.done {color: green;}
+.typo.done {color:red;}
+button {width: 60px;}
